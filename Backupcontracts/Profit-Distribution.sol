@@ -186,7 +186,7 @@ contract Profit_Distribution is Ownable {
   // Ethereum: 0xdac17f958d2ee523a2206206994597c13d831ec7
   // Binance SC: 0x55d398326f99059fF775485246999027B3197955 (BSC_USD)
   // BSC Testnet: 0xBA6670261a05b8504E8Ab9c45D97A8eD42573822
-  IERC20 private usdtToken = IERC20(0xBA6670261a05b8504E8Ab9c45D97A8eD42573822);
+  IERC20 private usdtToken = IERC20();
 
   address public _wallet;
   address[] private _holders;
